@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171BD3B7C93D0E7A30A3DC71 /* Pods_CharlieCakepops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A372FEA6DF075BBC21411A3 /* Pods_CharlieCakepops.framework */; };
+		6D6649328EAE1D1DEE4394F5 /* Pods_CharlieCakepopsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4290D8353B9139D15B99198B /* Pods_CharlieCakepopsUITests.framework */; };
+		88C8EF7218E293DAD4173831 /* Pods_CharlieCakepopsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8361CF2D689BD6AAB1655BC /* Pods_CharlieCakepopsTests.framework */; };
 		8E60AB731E1671220081F1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60AB721E1671220081F1E3 /* AppDelegate.swift */; };
 		8E60AB751E1671220081F1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60AB741E1671220081F1E3 /* ViewController.swift */; };
 		8E60AB781E1671220081F1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E60AB761E1671220081F1E3 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		8E60AB7D1E1671220081F1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E60AB7B1E1671220081F1E3 /* LaunchScreen.storyboard */; };
 		8E60AB881E1671220081F1E3 /* CharlieCakepopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60AB871E1671220081F1E3 /* CharlieCakepopsTests.swift */; };
 		8E60AB931E1671220081F1E3 /* CharlieCakepopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60AB921E1671220081F1E3 /* CharlieCakepopsUITests.swift */; };
+		8E60ABA11E1672230081F1E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E60ABA01E1672230081F1E3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22EF431E6BAC64791DEFA597 /* Pods-CharlieCakepops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlieCakepops.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharlieCakepops/Pods-CharlieCakepops.release.xcconfig"; sourceTree = "<group>"; };
+		2A372FEA6DF075BBC21411A3 /* Pods_CharlieCakepops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharlieCakepops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4290D8353B9139D15B99198B /* Pods_CharlieCakepopsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharlieCakepopsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4689F9C10C755B284B937846 /* Pods-CharlieCakepops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlieCakepops.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharlieCakepops/Pods-CharlieCakepops.debug.xcconfig"; sourceTree = "<group>"; };
+		6C89A58C45609BD3B998A7D1 /* Pods-CharlieCakepopsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlieCakepopsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharlieCakepopsUITests/Pods-CharlieCakepopsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		857A02974115513C14763A8E /* Pods-CharlieCakepopsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlieCakepopsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharlieCakepopsTests/Pods-CharlieCakepopsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E60AB6F1E1671220081F1E3 /* CharlieCakepops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharlieCakepops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E60AB721E1671220081F1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E60AB741E1671220081F1E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,11 @@
 		8E60AB8E1E1671220081F1E3 /* CharlieCakepopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharlieCakepopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E60AB921E1671220081F1E3 /* CharlieCakepopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharlieCakepopsUITests.swift; sourceTree = "<group>"; };
 		8E60AB941E1671220081F1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E60ABA01E1672230081F1E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E60ABA21E1673450081F1E3 /* CharlieCakepops.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CharlieCakepops.entitlements; sourceTree = "<group>"; };
+		94D19F7D9449299C1628AB01 /* Pods-CharlieCakepopsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlieCakepopsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharlieCakepopsTests/Pods-CharlieCakepopsTests.release.xcconfig"; sourceTree = "<group>"; };
+		99E8ADBEF0F53D86520ADFDC /* Pods-CharlieCakepopsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlieCakepopsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharlieCakepopsUITests/Pods-CharlieCakepopsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8361CF2D689BD6AAB1655BC /* Pods_CharlieCakepopsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharlieCakepopsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171BD3B7C93D0E7A30A3DC71 /* Pods_CharlieCakepops.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C8EF7218E293DAD4173831 /* Pods_CharlieCakepopsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6649328EAE1D1DEE4394F5 /* Pods_CharlieCakepopsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				8E60AB861E1671220081F1E3 /* CharlieCakepopsTests */,
 				8E60AB911E1671220081F1E3 /* CharlieCakepopsUITests */,
 				8E60AB701E1671220081F1E3 /* Products */,
+				E3F2083380DC7CEC36F3F1FF /* Pods */,
+				D711556F77330EF73E61C1C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +117,8 @@
 		8E60AB711E1671220081F1E3 /* CharlieCakepops */ = {
 			isa = PBXGroup;
 			children = (
+				8E60ABA21E1673450081F1E3 /* CharlieCakepops.entitlements */,
+				8E60ABA01E1672230081F1E3 /* GoogleService-Info.plist */,
 				8E60AB721E1671220081F1E3 /* AppDelegate.swift */,
 				8E60AB741E1671220081F1E3 /* ViewController.swift */,
 				8E60AB761E1671220081F1E3 /* Main.storyboard */,
@@ -125,6 +147,29 @@
 			path = CharlieCakepopsUITests;
 			sourceTree = "<group>";
 		};
+		D711556F77330EF73E61C1C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A372FEA6DF075BBC21411A3 /* Pods_CharlieCakepops.framework */,
+				B8361CF2D689BD6AAB1655BC /* Pods_CharlieCakepopsTests.framework */,
+				4290D8353B9139D15B99198B /* Pods_CharlieCakepopsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3F2083380DC7CEC36F3F1FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4689F9C10C755B284B937846 /* Pods-CharlieCakepops.debug.xcconfig */,
+				22EF431E6BAC64791DEFA597 /* Pods-CharlieCakepops.release.xcconfig */,
+				857A02974115513C14763A8E /* Pods-CharlieCakepopsTests.debug.xcconfig */,
+				94D19F7D9449299C1628AB01 /* Pods-CharlieCakepopsTests.release.xcconfig */,
+				6C89A58C45609BD3B998A7D1 /* Pods-CharlieCakepopsUITests.debug.xcconfig */,
+				99E8ADBEF0F53D86520ADFDC /* Pods-CharlieCakepopsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E60AB971E1671220081F1E3 /* Build configuration list for PBXNativeTarget "CharlieCakepops" */;
 			buildPhases = (
+				385EF53A4019AFAC245B0598 /* [CP] Check Pods Manifest.lock */,
 				8E60AB6B1E1671220081F1E3 /* Sources */,
 				8E60AB6C1E1671220081F1E3 /* Frameworks */,
 				8E60AB6D1E1671220081F1E3 /* Resources */,
+				76D3DCA313132355EF3961B5 /* [CP] Embed Pods Frameworks */,
+				022BC2D786D197FCD01DC049 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E60AB9A1E1671220081F1E3 /* Build configuration list for PBXNativeTarget "CharlieCakepopsTests" */;
 			buildPhases = (
+				D1106AFC149A17A102C18452 /* [CP] Check Pods Manifest.lock */,
 				8E60AB7F1E1671220081F1E3 /* Sources */,
 				8E60AB801E1671220081F1E3 /* Frameworks */,
 				8E60AB811E1671220081F1E3 /* Resources */,
+				B0A971494EBCB1D998A3701C /* [CP] Embed Pods Frameworks */,
+				EE2BB4EE8FB32742ACF76BE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E60AB9D1E1671220081F1E3 /* Build configuration list for PBXNativeTarget "CharlieCakepopsUITests" */;
 			buildPhases = (
+				6B523AD0DED663EF7407EAE4 /* [CP] Check Pods Manifest.lock */,
 				8E60AB8A1E1671220081F1E3 /* Sources */,
 				8E60AB8B1E1671220081F1E3 /* Frameworks */,
 				8E60AB8C1E1671220081F1E3 /* Resources */,
+				96F7FCB3FB133525DCC5CFED /* [CP] Embed Pods Frameworks */,
+				4C6219F255C8061B1F5281F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +247,13 @@
 				TargetAttributes = {
 					8E60AB6E1E1671220081F1E3 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8SWA6HC7HK;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					8E60AB821E1671220081F1E3 = {
 						CreatedOnToolsVersion = 8.2;
@@ -233,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E60AB7D1E1671220081F1E3 /* LaunchScreen.storyboard in Resources */,
+				8E60ABA11E1672230081F1E3 /* GoogleService-Info.plist in Resources */,
 				8E60AB7A1E1671220081F1E3 /* Assets.xcassets in Resources */,
 				8E60AB781E1671220081F1E3 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +314,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022BC2D786D197FCD01DC049 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharlieCakepops/Pods-CharlieCakepops-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		385EF53A4019AFAC245B0598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C6219F255C8061B1F5281F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharlieCakepopsUITests/Pods-CharlieCakepopsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B523AD0DED663EF7407EAE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76D3DCA313132355EF3961B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharlieCakepops/Pods-CharlieCakepops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F7FCB3FB133525DCC5CFED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharlieCakepopsUITests/Pods-CharlieCakepopsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A971494EBCB1D998A3701C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharlieCakepopsTests/Pods-CharlieCakepopsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1106AFC149A17A102C18452 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2BB4EE8FB32742ACF76BE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharlieCakepopsTests/Pods-CharlieCakepopsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E60AB6B1E1671220081F1E3 /* Sources */ = {
@@ -410,9 +609,13 @@
 		};
 		8E60AB981E1671220081F1E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4689F9C10C755B284B937846 /* Pods-CharlieCakepops.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CharlieCakepops/CharlieCakepops.entitlements;
+				DEVELOPMENT_TEAM = 8SWA6HC7HK;
 				INFOPLIST_FILE = CharlieCakepops/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.charlieCakePops.CharlieCakepops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +625,13 @@
 		};
 		8E60AB991E1671220081F1E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EF431E6BAC64791DEFA597 /* Pods-CharlieCakepops.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CharlieCakepops/CharlieCakepops.entitlements;
+				DEVELOPMENT_TEAM = 8SWA6HC7HK;
 				INFOPLIST_FILE = CharlieCakepops/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.charlieCakePops.CharlieCakepops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +641,7 @@
 		};
 		8E60AB9B1E1671220081F1E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857A02974115513C14763A8E /* Pods-CharlieCakepopsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +656,7 @@
 		};
 		8E60AB9C1E1671220081F1E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D19F7D9449299C1628AB01 /* Pods-CharlieCakepopsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +671,7 @@
 		};
 		8E60AB9E1E1671220081F1E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C89A58C45609BD3B998A7D1 /* Pods-CharlieCakepopsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CharlieCakepopsUITests/Info.plist;
@@ -475,6 +685,7 @@
 		};
 		8E60AB9F1E1671220081F1E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E8ADBEF0F53D86520ADFDC /* Pods-CharlieCakepopsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CharlieCakepopsUITests/Info.plist;
@@ -505,6 +716,7 @@
 				8E60AB991E1671220081F1E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E60AB9A1E1671220081F1E3 /* Build configuration list for PBXNativeTarget "CharlieCakepopsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +725,7 @@
 				8E60AB9C1E1671220081F1E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E60AB9D1E1671220081F1E3 /* Build configuration list for PBXNativeTarget "CharlieCakepopsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +734,7 @@
 				8E60AB9F1E1671220081F1E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
